@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Yang Yuchun&#39;s blog</title>
+    <link>https://example.com/categories/web/</link>
+    <description>Recent content in Web on Yang Yuchun&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Sep 2023 05:35:12 -0500</lastBuildDate><atom:link href="https://example.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ajax</title>
+      <link>https://example.com/post/ajax/</link>
+      <pubDate>Fri, 22 Sep 2023 05:35:12 -0500</pubDate>
+      
+      <guid>https://example.com/post/ajax/</guid>
+      
+        <description>GET 还是 POST？ 与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。
+然而，在以下情况中，请使用 POST 请求：</description>
+      
+    </item>
+    
+  </channel>
+</rss>

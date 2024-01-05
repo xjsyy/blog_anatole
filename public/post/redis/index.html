@@ -10,7 +10,7 @@
   <title>
     
       
-        Categories |
+        Common operation used by Redis |
       Yang Yuchun
 
   </title>
@@ -82,10 +82,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://example.com/categories/" />
+  <link rel="canonical" href="https://example.com/post/redis/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="Yang Yuchun's blog" />
   
   
   
@@ -114,21 +113,121 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://example.com/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Call me Yang"/>
+<meta name="twitter:title" content="Common operation used by Redis"/>
+<meta name="twitter:description" content="0.Overview 基于内存的key-value 结构数据库，读写性能高，适合热点数据存储
+1. 常用数据类型 string:字符串
+哈希:hash
+列表:list
+集合:set
+有序集合:sorted set / zset"/>
 
 
 
   
-  <meta property="og:title" content="Categories" />
-<meta property="og:description" content="Call me Yang" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://example.com/categories/" /><meta property="og:image" content="https://example.com/images/site-feature-image.png"/><meta property="og:site_name" content="Yang Yuchun&#39;s blog" />
+  <meta property="og:title" content="Common operation used by Redis" />
+<meta property="og:description" content="0.Overview 基于内存的key-value 结构数据库，读写性能高，适合热点数据存储
+1. 常用数据类型 string:字符串
+哈希:hash
+列表:list
+集合:set
+有序集合:sorted set / zset" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/post/redis/" /><meta property="og:image" content="https://example.com/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-11-03T02:55:16-05:00" />
+<meta property="article:modified_time" content="2023-11-03T02:55:16-05:00" /><meta property="og:site_name" content="Yang Yuchun&#39;s blog" />
 
 
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Common operation used by Redis",
+        "headline": "Common operation used by Redis",
+        "alternativeHeadline": "",
+        "description": "
+      
+        0.Overview 基于内存的key-value 结构数据库，读写性能高，适合热点数据存储\n1. 常用数据类型 string:字符串\n哈希:hash\n列表:list\n集合:set\n有序集合:sorted set \/ zset
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/example.com\/post\/redis\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Yang Yuchun"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Yang Yuchun"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Yang Yuchun"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Yang Yuchun"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-11-03T02:55:16.00Z",
+        "datePublished": "2023-11-03T02:55:16.00Z",
+        "dateModified": "2023-11-03T02:55:16.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Yang Yuchun",
+            "url": "https://example.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/example.com\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://example.com/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/example.com\/post\/redis\/",
+        "wordCount" : "116",
+        "genre" : [ 
+      
+      "Database"
+
+    
+      
+        ,
+
+      
+      "redis"
+
+    ],
+        "keywords" : [ 
+      
+      "redis"
+
+    ]
+    }
+  </script>
+
 
 </head>
 <body class="body">
@@ -311,111 +410,164 @@
 </div>
 </header>
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
     "
   >
     
-      <div class="archive__heading">2023</div>
+    <div class="post__content">
+      <h1>Common Operation Used by Redis</h1>
       
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/categories/redis/" title="redis">redis</a>
-            <div class="archive__list-date">
-              
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
                 
                   3/11/2023
                 
 
               
-            </div>
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">One-minute read</span>
           </li>
         </ul>
+      <h1 id="0overview">0.Overview</h1>
+<p>        基于内存的key-value 结构数据库，读写性能高，适合热点数据存储</p>
+<h1 id="1-常用数据类型">1. 常用数据类型</h1>
+<ul>
+<li>
+<p>string:字符串</p>
+</li>
+<li>
+<p>哈希:hash</p>
+</li>
+<li>
+<p>列表:list</p>
+</li>
+<li>
+<p>集合:set</p>
+</li>
+<li>
+<p>有序集合:sorted set / zset</p>
+</li>
+</ul>
+<h1 id="2-字符串操作常用命令">2. 字符串操作常用命令</h1>
+<ol>
+<li>
+<p>SET key value:设定指定key的值</p>
+</li>
+<li>
+<p>GET key: 获取指定key的值</p>
+</li>
+<li>
+<p>SETEX key seconds value:设置指定key的值,并将key的过期时间设为seconds秒</p>
+</li>
+<li>
+<p>SETNX key value:只有在key不存在时设置key的值</p>
+</li>
+</ol>
+<h1 id="3-哈希操作常用命令">3. 哈希操作常用命令</h1>
+<ol>
+<li>
+<p>HSET key field value:将哈希表 key 中的字段 field 的值设为 value</p>
+</li>
+<li>
+<p>HGET key field: 获取存储在哈希表中指定字段的值</p>
+</li>
+<li>
+<p>HDELE key field:删除存储在哈希表中的指定字段</p>
+</li>
+<li>
+<p>HKETY key:获取哈希表中所有字段</p>
+</li>
+<li>
+<p>HVALS key value:获取哈希表中所有值</p>
+</li>
+</ol>
+<h1 id="4-列表操作常用命令">4. 列表操作常用命令</h1>
+<ol>
+<li>
+<p>LPUSH key value1 &hellip;.:将一个或多个值插入到列表头部</p>
+</li>
+<li>
+<p>LRANGE key start stop:获取列表指定范围内的元素</p>
+</li>
+<li>
+<p>RPOP:移除并获取列表最后一个元素</p>
+</li>
+<li>
+<p>LLEN key:获取列表长度</p>
+</li>
+</ol>
+<h1 id="5集合操作常用命令">5.集合操作常用命令</h1>
+<ol>
+<li>
+<p>SADD key member1 &hellip;:向集合添加一个或多个成员</p>
+</li>
+<li>
+<p>SMEMBERS key: 返回集合中的所有成员</p>
+</li>
+<li>
+<p>SCARD key:获取集合的成员数</p>
+</li>
+<li>
+<p>SINTER key1 &hellip;:返回给定所有集合的交集</p>
+</li>
+<li>
+<p>SUNION key1 &hellip;.:返回所有给定集合的并集</p>
+</li>
+<li>
+<p>SREM key member1 &hellip;:删除集合中一个或多个成员</p>
+</li>
+</ol>
+<h1 id="6-有序集合操作常用命令">6. 有序集合操作常用命令</h1>
+<ol>
+<li>
+<p>ZADD key score1 member1:向有序集合添加一个或多个成员</p>
+</li>
+<li>
+<p>ZRANGE key start stop:通过索引区间返回有序集合中指定区间内的成员</p>
+</li>
+<li>
+<p>ZINCRBY key increment member:有序集合中对指定成员的分数加上增量increment</p>
+</li>
+<li>
+<p>ZREM key memeber:移除有序集合中的一个或多个成员</p>
+</li>
+</ol>
+<h1 id="7-通用操作命令">7. 通用操作命令</h1>
+<ol>
+<li>
+<p>KEYS pattern:查找所有符合给定模式(pattern)的 key</p>
+</li>
+<li>
+<p>EXISTS key:检查给定key是否存在</p>
+</li>
+<li>
+<p>TYPE key:返回 key 所储存的值的类型</p>
+</li>
+<li>
+<p>DEL key:该命令用于在key 存在是删除 key</p>
+</li>
+</ol>
+</div>
+    <div class="post__footer">
       
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/categories/database/" title="Database">Database</a>
-            <div class="archive__list-date">
-              
-                
-                  3/11/2023
-                
+        <span><a class="category" href="/categories/database/">Database</a><a class="category" href="/categories/redis/">redis</a></span>
 
-              
-            </div>
-          </li>
-        </ul>
-      
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/categories/web/" title="Web">Web</a>
-            <div class="archive__list-date">
-              
-                
-                  22/9/2023
-                
 
-              
-            </div>
-          </li>
-        </ul>
       
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/categories/linux/" title="Linux">Linux</a>
-            <div class="archive__list-date">
-              
-                
-                  7/9/2023
-                
 
-              
-            </div>
-          </li>
-        </ul>
       
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/categories/computer-network/" title="Computer Network">Computer Network</a>
-            <div class="archive__list-date">
-              
-                
-                  4/9/2023
-                
+        <span><a class="tag" href="/tags/redis/">redis</a></span>
 
-              
-            </div>
-          </li>
-        </ul>
-      
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/categories/ide/" title="IDE">IDE</a>
-            <div class="archive__list-date">
-              
-                
-                  20/5/2023
-                
 
-              
-            </div>
-          </li>
-        </ul>
       
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            <a class="archive__list-title" href="/categories/git/" title="Git">Git</a>
-            <div class="archive__list-date">
-              
-                
-                  12/5/2023
-                
-
-              
-            </div>
-          </li>
-        </ul>
-      
+    </div>
 
     
   </div>

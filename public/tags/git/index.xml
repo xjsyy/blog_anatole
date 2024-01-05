@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Yang Yuchun&#39;s blog</title>
+    <link>https://example.com/tags/git/</link>
+    <description>Recent content in git on Yang Yuchun&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 May 2023 22:12:40 -0500</lastBuildDate><atom:link href="https://example.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git_process_test</title>
+      <link>https://example.com/post/git_process_test/</link>
+      <pubDate>Fri, 12 May 2023 22:12:40 -0500</pubDate>
+      
+      <guid>https://example.com/post/git_process_test/</guid>
+      
+        <description>下面介绍一下git分支合并的简单操作
+创建分支: git branch test　＃以&amp;#34;test&amp;#34;分支为例子 切换分支 git checkout test 合并分支 如果你想要把test分支合并到master分支：</description>
+      
+    </item>
+    
+  </channel>
+</rss>
