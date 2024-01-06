@@ -5,7 +5,7 @@ copyright = "Yang Yuchun 2024"
 description = "Call me Yang"
 profilePicture = "images/profile.png"
 keywords = ""
-favicon = "favicons/"
+favicon = "favicon/favicon-32x32.png"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
