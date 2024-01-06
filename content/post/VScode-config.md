@@ -9,9 +9,9 @@ categories : ["IDE"]
 
 > 插件
 
-{{< figure src="/img/c.png" >}}
+{{< figure src="/images/c.png" >}}
 
-{{< figure src="/img/CR.png" >}}
+{{< figure src="/images/CR.png" >}}
 
 > setting
 
