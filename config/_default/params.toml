@@ -4,8 +4,8 @@ author = "Yang Yuchun"
 copyright = "Yang Yuchun 2024"
 description = "Use code to knock out the strong voice of the times"
 profilePicture = "images/profile.png"
-keywords = ""
-favicon = "favicon/"
+keywords = "yyc"
+favicon = "favicons/"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
