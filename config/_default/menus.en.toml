@@ -17,6 +17,12 @@
   url = "/about/"
 
   [[main]]
+  name = "Tip"
+  weight = 400
+  identifier = "tip"
+  url = "/tip/"
+
+  [[main]]
   name = "Contact"
   weight = 600
   identifier = "contact"
