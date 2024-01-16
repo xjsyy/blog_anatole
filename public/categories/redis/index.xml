@@ -2,24 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>redis on Yang Yuchun&#39;s blog</title>
-    <link>https://example.com/categories/redis/</link>
+    <link>https://blog-anatole.pages.dev/categories/redis/</link>
     <description>Recent content in redis on Yang Yuchun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 02:55:16 -0500</lastBuildDate><atom:link href="https://example.com/categories/redis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Nov 2023 02:55:16 -0500</lastBuildDate><atom:link href="https://blog-anatole.pages.dev/categories/redis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Common operation used by Redis</title>
-      <link>https://example.com/post/redis/</link>
+      <link>https://blog-anatole.pages.dev/post/redis/</link>
       <pubDate>Fri, 03 Nov 2023 02:55:16 -0500</pubDate>
       
-      <guid>https://example.com/post/redis/</guid>
+      <guid>https://blog-anatole.pages.dev/post/redis/</guid>
       
-        <description>0.Overview 基于内存的key-value 结构数据库，读写性能高，适合热点数据存储
-1. 常用数据类型 string:字符串
-哈希:hash
-列表:list
-集合:set
-有序集合:sorted set / zset</description>
+        <description>0.Overview 基于内存的key-value 结构数据库，读写性能高，适合热点数据存储</description>
       
     </item>
     

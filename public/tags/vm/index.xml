@@ -2,20 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VM on Yang Yuchun&#39;s blog</title>
-    <link>https://example.com/tags/vm/</link>
+    <link>https://blog-anatole.pages.dev/tags/vm/</link>
     <description>Recent content in VM on Yang Yuchun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 05:32:33 -0500</lastBuildDate><atom:link href="https://example.com/tags/vm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 05:32:33 -0500</lastBuildDate><atom:link href="https://blog-anatole.pages.dev/tags/vm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VM_fullscreen</title>
-      <link>https://example.com/post/vm_fullscreen/</link>
+      <link>https://blog-anatole.pages.dev/post/vm_fullscreen/</link>
       <pubDate>Thu, 07 Sep 2023 05:32:33 -0500</pubDate>
       
-      <guid>https://example.com/post/vm_fullscreen/</guid>
+      <guid>https://blog-anatole.pages.dev/post/vm_fullscreen/</guid>
       
-        <description>Debian虚拟机全屏,首先找到配置文件
-su #管理员目录 cd /etc/apt cp sources.list sources.list.bak #备份sources.list文件 将文件内容替换为下列内容，即更改软件源</description>
+        <description>Debian虚拟机全屏,首先找到配置文件</description>
       
     </item>
     

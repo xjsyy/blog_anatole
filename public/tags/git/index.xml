@@ -1,21 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on Yang Yuchun&#39;s blog</title>
-    <link>https://example.com/tags/git/</link>
-    <description>Recent content in git on Yang Yuchun&#39;s blog</description>
+    <title>GIT on Yang Yuchun&#39;s blog</title>
+    <link>https://blog-anatole.pages.dev/tags/git/</link>
+    <description>Recent content in GIT on Yang Yuchun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 May 2023 22:12:40 -0500</lastBuildDate><atom:link href="https://example.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Jan 2024 06:34:08 -0500</lastBuildDate><atom:link href="https://blog-anatole.pages.dev/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github_ssh_public_key</title>
+      <link>https://blog-anatole.pages.dev/post/github_ssh_public_key/</link>
+      <pubDate>Mon, 08 Jan 2024 06:34:08 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/post/github_ssh_public_key/</guid>
+      
+        <description>配置Github sh连接</description>
+      
+    </item>
+    
+    <item>
+      <title>Git branch</title>
+      <link>https://blog-anatole.pages.dev/post/git_branch/</link>
+      <pubDate>Mon, 08 Jan 2024 06:20:08 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/post/git_branch/</guid>
+      
+        <description>git branch simple command</description>
+      
+    </item>
+    
     <item>
       <title>Git_process_test</title>
-      <link>https://example.com/post/git_process_test/</link>
+      <link>https://blog-anatole.pages.dev/post/git_process_test/</link>
       <pubDate>Fri, 12 May 2023 22:12:40 -0500</pubDate>
       
-      <guid>https://example.com/post/git_process_test/</guid>
+      <guid>https://blog-anatole.pages.dev/post/git_process_test/</guid>
       
-        <description>下面介绍一下git分支合并的简单操作
-创建分支: git branch test　＃以&amp;#34;test&amp;#34;分支为例子 切换分支 git checkout test 合并分支 如果你想要把test分支合并到master分支：</description>
+        <description>下面介绍一下git分支合并的简单操作</description>
       
     </item>
     

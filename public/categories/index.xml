@@ -2,17 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yang Yuchun&#39;s blog</title>
-    <link>https://example.com/categories/</link>
+    <link>https://blog-anatole.pages.dev/categories/</link>
     <description>Recent content in Categories on Yang Yuchun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 02:55:16 -0500</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jan 2024 22:37:04 -0500</lastBuildDate><atom:link href="https://blog-anatole.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://blog-anatole.pages.dev/categories/linux/</link>
+      <pubDate>Sun, 14 Jan 2024 22:37:04 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/categories/linux/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GIT</title>
+      <link>https://blog-anatole.pages.dev/categories/git/</link>
+      <pubDate>Mon, 08 Jan 2024 06:34:08 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/categories/git/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>Database</title>
-      <link>https://example.com/categories/database/</link>
+      <link>https://blog-anatole.pages.dev/categories/database/</link>
       <pubDate>Fri, 03 Nov 2023 02:55:16 -0500</pubDate>
       
-      <guid>https://example.com/categories/database/</guid>
+      <guid>https://blog-anatole.pages.dev/categories/database/</guid>
       
         <description></description>
       
@@ -20,10 +42,10 @@
     
     <item>
       <title>redis</title>
-      <link>https://example.com/categories/redis/</link>
+      <link>https://blog-anatole.pages.dev/categories/redis/</link>
       <pubDate>Fri, 03 Nov 2023 02:55:16 -0500</pubDate>
       
-      <guid>https://example.com/categories/redis/</guid>
+      <guid>https://blog-anatole.pages.dev/categories/redis/</guid>
       
         <description></description>
       
@@ -31,21 +53,10 @@
     
     <item>
       <title>Web</title>
-      <link>https://example.com/categories/web/</link>
+      <link>https://blog-anatole.pages.dev/categories/web/</link>
       <pubDate>Fri, 22 Sep 2023 05:35:12 -0500</pubDate>
       
-      <guid>https://example.com/categories/web/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://example.com/categories/linux/</link>
-      <pubDate>Thu, 07 Sep 2023 05:32:33 -0500</pubDate>
-      
-      <guid>https://example.com/categories/linux/</guid>
+      <guid>https://blog-anatole.pages.dev/categories/web/</guid>
       
         <description></description>
       
@@ -53,10 +64,10 @@
     
     <item>
       <title>Computer Network</title>
-      <link>https://example.com/categories/computer-network/</link>
+      <link>https://blog-anatole.pages.dev/categories/computer-network/</link>
       <pubDate>Mon, 04 Sep 2023 02:04:23 -0500</pubDate>
       
-      <guid>https://example.com/categories/computer-network/</guid>
+      <guid>https://blog-anatole.pages.dev/categories/computer-network/</guid>
       
         <description></description>
       
@@ -64,21 +75,10 @@
     
     <item>
       <title>IDE</title>
-      <link>https://example.com/categories/ide/</link>
+      <link>https://blog-anatole.pages.dev/categories/ide/</link>
       <pubDate>Sat, 20 May 2023 02:14:36 -0500</pubDate>
       
-      <guid>https://example.com/categories/ide/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://example.com/categories/git/</link>
-      <pubDate>Fri, 12 May 2023 22:12:40 -0500</pubDate>
-      
-      <guid>https://example.com/categories/git/</guid>
+      <guid>https://blog-anatole.pages.dev/categories/ide/</guid>
       
         <description></description>
       

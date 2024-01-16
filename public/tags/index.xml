@@ -2,17 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yang Yuchun&#39;s blog</title>
-    <link>https://example.com/tags/</link>
+    <link>https://blog-anatole.pages.dev/tags/</link>
     <description>Recent content in Tags on Yang Yuchun&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 02:55:16 -0500</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jan 2024 22:37:04 -0500</lastBuildDate><atom:link href="https://blog-anatole.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://blog-anatole.pages.dev/tags/python/</link>
+      <pubDate>Sun, 14 Jan 2024 22:37:04 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/tags/python/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>tip</title>
+      <link>https://blog-anatole.pages.dev/tags/tip/</link>
+      <pubDate>Mon, 08 Jan 2024 07:02:30 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/tags/tip/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GIT</title>
+      <link>https://blog-anatole.pages.dev/tags/git/</link>
+      <pubDate>Mon, 08 Jan 2024 06:34:08 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/tags/git/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>redis</title>
-      <link>https://example.com/tags/redis/</link>
+      <link>https://blog-anatole.pages.dev/tags/redis/</link>
       <pubDate>Fri, 03 Nov 2023 02:55:16 -0500</pubDate>
       
-      <guid>https://example.com/tags/redis/</guid>
+      <guid>https://blog-anatole.pages.dev/tags/redis/</guid>
       
         <description></description>
       
@@ -20,10 +53,10 @@
     
     <item>
       <title>request</title>
-      <link>https://example.com/tags/request/</link>
+      <link>https://blog-anatole.pages.dev/tags/request/</link>
       <pubDate>Fri, 22 Sep 2023 05:35:12 -0500</pubDate>
       
-      <guid>https://example.com/tags/request/</guid>
+      <guid>https://blog-anatole.pages.dev/tags/request/</guid>
       
         <description></description>
       
@@ -31,10 +64,10 @@
     
     <item>
       <title>VM</title>
-      <link>https://example.com/tags/vm/</link>
+      <link>https://blog-anatole.pages.dev/tags/vm/</link>
       <pubDate>Thu, 07 Sep 2023 05:32:33 -0500</pubDate>
       
-      <guid>https://example.com/tags/vm/</guid>
+      <guid>https://blog-anatole.pages.dev/tags/vm/</guid>
       
         <description></description>
       
@@ -42,21 +75,10 @@
     
     <item>
       <title>信道,通信,传播</title>
-      <link>https://example.com/tags/%E4%BF%A1%E9%81%93%E9%80%9A%E4%BF%A1%E4%BC%A0%E6%92%AD/</link>
+      <link>https://blog-anatole.pages.dev/tags/%E4%BF%A1%E9%81%93%E9%80%9A%E4%BF%A1%E4%BC%A0%E6%92%AD/</link>
       <pubDate>Mon, 04 Sep 2023 02:04:23 -0500</pubDate>
       
-      <guid>https://example.com/tags/%E4%BF%A1%E9%81%93%E9%80%9A%E4%BF%A1%E4%BC%A0%E6%92%AD/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://example.com/tags/git/</link>
-      <pubDate>Fri, 12 May 2023 22:12:40 -0500</pubDate>
-      
-      <guid>https://example.com/tags/git/</guid>
+      <guid>https://blog-anatole.pages.dev/tags/%E4%BF%A1%E9%81%93%E9%80%9A%E4%BF%A1%E4%BC%A0%E6%92%AD/</guid>
       
         <description></description>
       

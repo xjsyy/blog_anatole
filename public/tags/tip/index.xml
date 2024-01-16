@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tip on Yang Yuchun&#39;s blog</title>
+    <link>https://blog-anatole.pages.dev/tags/tip/</link>
+    <description>Recent content in tip on Yang Yuchun&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jan 2024 07:02:30 -0500</lastBuildDate><atom:link href="https://blog-anatole.pages.dev/tags/tip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tip</title>
+      <link>https://blog-anatole.pages.dev/tip/</link>
+      <pubDate>Mon, 08 Jan 2024 07:02:30 -0500</pubDate>
+      
+      <guid>https://blog-anatole.pages.dev/tip/</guid>
+      
+        <description>a small tip</description>
+      
+    </item>
+    
+  </channel>
+</rss>
