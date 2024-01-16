@@ -8,7 +8,7 @@ title = "Website of Yang Yuchun"
 # theme as git submodule
 theme = "anatole"
 
-summarylength = 10
+summarylength = 1
 enableEmoji = true
 enableRobotsTXT = true
 
